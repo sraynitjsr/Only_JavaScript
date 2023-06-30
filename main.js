@@ -1,11 +1,11 @@
+const process = require('process');
+
 console.log("Welcome to JavaScript World................");
 
-console.log("Simple For Loop in JavaScript")
-
-let output = "";
+console.log("Simple For Loop in JavaScript..............")
 
 for (let i = 1; i <= 5; i++) {
-  output += i + " ";
+  process.stdout.write(i + ' ');
 }
 
-console.log(output);
+console.log('')
