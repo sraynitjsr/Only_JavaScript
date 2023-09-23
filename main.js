@@ -22,8 +22,15 @@ for (let i = 0; i < colors.length; i++) {
   console.log(colors[i]);
 }
 
-function display(name) {
+function greet(name) {
   console.log("Hello, " + name + "!");
 }
 
-display("Ray");
+greet("Ray");
+
+let person = {
+  name: "Tufan",
+  age: 30,
+  isStudent: true,
+};
+console.log(person.name + " is " + person.age + " years old.");
