@@ -16,3 +16,8 @@ if (temperature > 25) {
 } else {
   console.log("It's not too hot.");
 }
+
+let colors = ["red", "green", "blue"];
+for (let i = 0; i < colors.length; i++) {
+  console.log(colors[i]);
+}
