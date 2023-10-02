@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h2>JavaScript Bulb Program</h2>
+<h2>Vanilla JavaScript Bulb Program</h2>
 
 <p>JavaScript Can Change HTML Attribute Values.</p>
 
