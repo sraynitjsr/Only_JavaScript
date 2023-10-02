@@ -1,79 +1,18 @@
-console.log("Learning JavaScript As A Programming Language");
+<!DOCTYPE html>
+<html>
+<body>
 
-let name = "Sachin";
-let age = 37;
-console.log(name + " is " + age + " years old.");
+<h2>JavaScript Bulb Program</h2>
 
-let number = 2020;
-let text = "Hello";
-let isTrue = true;
-let fruits = ["Apple", "Banana", "Cherry"];
-console.log(number + " " + text + " " + isTrue + " Array => " + fruits);
+<p>JavaScript Can Change HTML Attribute Values.</p>
 
-let temperature = 15;
-if (temperature > 25) {
-  console.log("It's hot outside!");
-} else {
-  console.log("It's not too hot.");
-}
+<p>In This Case JavaScript Changes the Value of The Source Attribute of An Image.</p>
 
-let colors = ["red", "green", "blue"];
-for (let i = 0; i < colors.length; i++) {
-  console.log(colors[i]);
-}
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on The Light</button>
 
-function greet(name) {
-  console.log("Hello, " + name + "!");
-}
+<img id="myImage" src="my_pic.gif" style="width:100px">
 
-greet("Ray");
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
 
-let person = {
-  name: "Tufan",
-  age: 30,
-  isStudent: true,
-};
-console.log(person.name + " is " + person.age + " years old.");
-
-console.log("Learning JavaScript As A Programming Language");
-
-let name = "Sachin";
-let age = 37;
-console.log(name + " is " + age + " years old.");
-
-let number = 2020;
-let text = "Hello";
-let isTrue = true;
-let fruits = ["Apple", "Banana", "Cherry"];
-console.log(number + " " + text + " " + isTrue + " Array => " + fruits);
-
-let temperature = 15;
-if (temperature > 25) {
-  console.log("It's hot outside!");
-} else {
-  console.log("It's not too hot.");
-}
-
-let colors = ["red", "green", "blue"];
-for (let i = 0; i < colors.length; i++) {
-  console.log(colors[i]);
-}
-
-function greet(name) {
-  console.log("Hello, " + name + "!");
-}
-
-greet("Ray");
-
-let person = {
-  name: "Tufan",
-  age: 30,
-  isStudent: true,
-};
-console.log(person.name + " is " + person.age + " years old.");
-
-let numbers = [1, 2, 3, 4, 5];
-let doubled = numbers.map(function (num) {
-  return num * 2;
-});
-console.log(doubled);
+</body>
+</html>
